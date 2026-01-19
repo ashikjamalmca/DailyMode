@@ -13,7 +13,7 @@ export default function AboutHero() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <div className="inline-flex items-center gap-2 bg-daily-yellow/10 text-daily-yellow font-semibold uppercase text-xs tracking-widest mb-6 px-4 py-2 rounded-full border border-daily-yellow/20">
-              <span className="w-2 h-2 bg-daily-yellow rounded-full"></span> About Daily Mode
+              <span className="w-2 h-2 bg-daily-yellow rounded-full"></span> About Code Promise
             </div>
             <h1 className="text-6xl md:text-7xl lg:text-8xl font-black tracking-tighter leading-none mb-8">
               WE ARE<br />

@@ -8,7 +8,7 @@ export default function Locations() {
       address: "Aanwas 35",
       postal: "4704 SC",
       phone: "+31 85 021 11 21",
-      email: "roosendaal@dailymode.nl",
+      email: "roosendaal@code promise.nl",
       hours: "Mon-Fri: 9:00 - 18:00",
       image: "https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
       mapUrl: "https://maps.google.com"
@@ -19,7 +19,7 @@ export default function Locations() {
       address: "Binckhorstlaan 36",
       postal: "2516 BE",
       phone: "+31 85 021 11 21",
-      email: "denhaag@dailymode.nl",
+      email: "denhaag@code promise.nl",
       hours: "Mon-Fri: 9:00 - 18:00",
       image: "https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
       mapUrl: "https://maps.google.com"

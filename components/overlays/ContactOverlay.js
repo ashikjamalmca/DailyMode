@@ -64,7 +64,7 @@ export default function ContactOverlay() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 text-sm text-gray-400 mt-20">
               <div>
                 <h4 className="text-white font-bold mb-4 uppercase tracking-wider">Contact Details</h4>
-                <p className="mb-1 hover:text-daily-yellow transition-colors cursor-pointer">hello@dailymode.agency</p>
+                <p className="mb-1 hover:text-daily-yellow transition-colors cursor-pointer">hello@code promise.agency</p>
                 <p className="hover:text-daily-yellow transition-colors cursor-pointer">+31 85 021 11 21</p>
               </div>
               <div>

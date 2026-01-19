@@ -12,7 +12,7 @@ export default function OurStory() {
             <div>
               <h3 className="text-2xl font-bold mb-4">The Beginning</h3>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Founded in 2020, Daily Mode started with a simple mission: to bridge the gap between cutting-edge technology and real business impact. We saw too many companies struggling with digital transformation, not because of lack of ambition, but because of lack of the right partner.
+                Founded in 2020, Code Promise started with a simple mission: to bridge the gap between cutting-edge technology and real business impact. We saw too many companies struggling with digital transformation, not because of lack of ambition, but because of lack of the right partner.
               </p>
             </div>
             

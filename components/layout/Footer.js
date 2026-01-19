@@ -15,7 +15,7 @@ export default function Footer() {
             <span className="text-gray-500">for your brand.</span>
           </h2>
           <div className="flex items-center flex-wrap sm:!flex-nowrap gap-4">
-            <h3 className="text-3xl font-bold">Daily Mode<span className="text-daily-yellow">*</span></h3>
+            <h3 className="text-3xl font-bold">Code Promise<span className="text-daily-yellow">*</span></h3>
             <button onClick={toggleContact} className="border border-white/30 px-6 py-2 rounded-full hover:bg-white hover:text-black transition">
               START MY JOURNEY
             </button>
@@ -35,7 +35,7 @@ export default function Footer() {
           <div className="flex flex-col gap-3">
             <h4 className="text-white font-bold mb-2">Contact</h4>
             <button onClick={toggleContact} className="hover:text-white transition text-left">Get In Touch</button>
-            <a href="mailto:hello@dailymode.nl" className="hover:text-white transition">hello@dailymode.nl</a>
+            <a href="mailto:hello@code promise.nl" className="hover:text-white transition">hello@code promise.nl</a>
             <a href="tel:+31850211121" className="hover:text-white transition">+31 85 021 11 21</a>
           </div>
           <div className="flex flex-col gap-3">
@@ -51,7 +51,7 @@ export default function Footer() {
 
       <div className="border-t border-white/10 pt-8 flex flex-col lg:flex-row justify-between items-center text-xs text-gray-500 gap-4">
         <div className="flex gap-4">
-          <span>© 2025 Daily Mode — All rights reserved</span>
+          <span>© 2025 Code Promise — All rights reserved</span>
         </div>
         <div className="flex gap-4">
           <a href="#">Terms & Conditions</a>

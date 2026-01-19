@@ -149,7 +149,7 @@ export default function CareersPage() {
         <div className="container mx-auto px-6 md:px-12 max-w-7xl">
           <div className="text-center mb-20">
             <h2 className="text-4xl xs:text-5xl lg:text-7xl font-bold mb-6">
-              WHY DAILY MODE?
+              WHY CODE PROMISE?
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               More than just a job. It's a place to grow, learn, and build

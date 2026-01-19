@@ -13,7 +13,7 @@ export default function Culture() {
         <svg width="120" height="120" viewBox="0 0 100 100">
           <path id="curve" d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" fill="transparent" />
           <text width="500" fill="red" fontWeight="bold" fontSize="14">
-            <textPath xlinkHref="#curve">DAILY MODE * DAILY MODE * DAILY MODE *</textPath>
+            <textPath xlinkHref="#curve">CODE PROMISE * CODE PROMISE * CODE PROMISE *</textPath>
           </text>
           <circle cx="50" cy="50" r="20" fill="red" />
         </svg>

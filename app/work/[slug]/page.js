@@ -33,7 +33,7 @@ export default function ProjectDetail() {
         'https://images.unsplash.com/photo-1533139502658-0198f920d8e8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
       ],
       testimonial: {
-        quote: 'Daily Mode transformed our vision into reality. The platform they built exceeded our expectations in every way.',
+        quote: 'Code Promise transformed our vision into reality. The platform they built exceeded our expectations in every way.',
         author: 'Jan van der Berg',
         role: 'Founder, Wristler'
       }
@@ -61,7 +61,7 @@ export default function ProjectDetail() {
         'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
       ],
       testimonial: {
-        quote: 'The team at Daily Mode understood our vision perfectly. They delivered a website that truly represents our brand.',
+        quote: 'The team at Code Promise understood our vision perfectly. They delivered a website that truly represents our brand.',
         author: 'Sarah Martinez',
         role: 'Creative Director, Urban Creative'
       }
@@ -89,7 +89,7 @@ export default function ProjectDetail() {
         'https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
       ],
       testimonial: {
-        quote: 'The AI solution Daily Mode built has transformed how we work. It\'s like having an extra team member.',
+        quote: 'The AI solution Code Promise built has transformed how we work. It\'s like having an extra team member.',
         author: 'Michael Chen',
         role: 'CTO, TechFlow Solutions'
       }

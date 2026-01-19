@@ -27,7 +27,7 @@ export default function FAQ() {
       answer: "Yes, we offer flexible payment structures. Typically, we work with milestone-based payments (e.g., 30% upfront, 40% mid-project, 30% on completion). We can discuss what works best for your budget."
     },
     {
-      question: "What makes Daily Mode different from other agencies?",
+      question: "What makes Code Promise different from other agencies?",
       answer: "We combine technical excellence with business understanding. We're not just coders - we're strategic partners who care about your success. Plus, we move fast without compromising quality."
     }
   ];

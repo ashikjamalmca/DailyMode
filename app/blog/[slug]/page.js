@@ -84,7 +84,7 @@ export default function BlogArticle() {
       <h2>Conclusion</h2>
       <p>The future of web development is collaborative—humans and AI working together to build better, faster, and more intelligent web experiences. The question isn't whether to adopt AI, but how to do it thoughtfully and effectively.</p>
 
-      <p>At Daily Mode, we're at the forefront of this revolution, helping our clients leverage AI to build next-generation web experiences. If you're curious about how AI could transform your digital presence, let's talk.</p>
+      <p>At Code Promise, we're at the forefront of this revolution, helping our clients leverage AI to build next-generation web experiences. If you're curious about how AI could transform your digital presence, let's talk.</p>
     `
   };
 

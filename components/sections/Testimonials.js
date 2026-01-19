@@ -28,7 +28,7 @@ export default function Testimonials() {
 
   const testimonials = [
     {
-      quote: "Daily Mode transformed our digital infrastructure. Their AI solutions increased our efficiency by 300%.",
+      quote: "Code Promise transformed our digital infrastructure. Their AI solutions increased our efficiency by 300%.",
       author: "Sarah Chen",
       role: "CEO, TechVision",
       image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"

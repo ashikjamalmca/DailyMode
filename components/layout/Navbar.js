@@ -59,7 +59,7 @@ export default function Navbar({ dark = false }) {
             onClick={scrollToTop}
             className="font-bold text-2xl tracking-tighter hover:scale-105 transition-transform cursor-pointer"
           >
-            Daily Mode<span className="align-top text-xs">*</span>
+            Code Promise<span className="align-top text-xs">*</span>
           </div>
           <div className="flex items-center gap-6">
             <a
