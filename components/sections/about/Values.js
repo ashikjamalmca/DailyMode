@@ -37,8 +37,8 @@ export default function Values() {
       <div className="container mx-auto px-6 md:px-12 max-w-7xl">
         <div className="text-center mb-20">
           <div className="flex justify-center mb-6">
-            <div className="inline-flex items-center gap-2 bg-[#d1fa3c]/10 text-[#d1fa3c] font-semibold uppercase text-xs tracking-widest px-4 py-2 rounded-full border border-[#d1fa3c]/20">
-              <span className="w-2 h-2 bg-[#d1fa3c] rounded-full"></span> Our Values
+            <div className="inline-flex items-center gap-2 bg-daily-yellow/10 text-daily-yellow font-semibold uppercase text-xs tracking-widest px-4 py-2 rounded-full border border-daily-yellow/20">
+              <span className="w-2 h-2 bg-daily-yellow rounded-full"></span> Our Values
             </div>
           </div>
           <h2 className="text-4xl xs:text-5xl lg:text-7xl font-bold mb-6">
@@ -50,10 +50,10 @@ export default function Values() {
           {values.map((value, index) => (
             <div 
               key={index} 
-              className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 hover:bg-white/10 hover:border-[#d1fa3c] transition-all duration-300 group"
+              className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 hover:bg-white/10 hover:border-daily-yellow transition-all duration-300 group"
             >
               <div className="text-6xl mb-6 group-hover:scale-110 transition-transform">{value.icon}</div>
-              <h3 className="text-2xl font-bold mb-4 group-hover:text-[#d1fa3c] transition-colors">{value.title}</h3>
+              <h3 className="text-2xl font-bold mb-4 group-hover:text-daily-yellow transition-colors">{value.title}</h3>
               <p className="text-gray-400 leading-relaxed">{value.description}</p>
             </div>
           ))}

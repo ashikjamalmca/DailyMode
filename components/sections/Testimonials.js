@@ -56,8 +56,8 @@ export default function Testimonials() {
   return (
     <section className="py-[80px] bg-black text-white overflow-hidden" id="testimonials">
       <div className="container mx-auto px-6 md:px-12 max-w-7xl mb-16">
-        <div className="flex items-center gap-2 text-[#d1fa3c] font-bold uppercase text-xs tracking-widest mb-6">
-          <span className="w-2 h-2 bg-[#d1fa3c] rounded-full"></span> Testimonials
+        <div className="flex items-center gap-2 text-daily-yellow font-bold uppercase text-xs tracking-widest mb-6">
+          <span className="w-2 h-2 bg-daily-yellow rounded-full"></span> Testimonials
         </div>
         <h2 className="text-4xl xs:text-5xl lg:text-7xl font-bold tracking-tight">
           TRUSTED BY<br />INNOVATORS

@@ -73,7 +73,7 @@ export default function PricingPage() {
   ];
 
   const renderValue = (value) => {
-    if (value === true) return <span className="text-[#d1fa3c] text-2xl">✓</span>;
+    if (value === true) return <span className="text-daily-yellow text-2xl">✓</span>;
     if (value === false) return <span className="text-gray-300 text-xl">—</span>;
     return <span className="text-sm font-semibold">{value}</span>;
   };
@@ -87,8 +87,8 @@ export default function PricingPage() {
         
         <div className="container mx-auto px-6 md:px-12 max-w-7xl relative z-10">
           <div className="text-center max-w-4xl mx-auto">
-            <div className="flex items-center justify-center gap-2 text-[#d1fa3c] font-bold uppercase text-xs tracking-widest mb-6">
-              <span className="w-2 h-2 bg-[#d1fa3c] rounded-full"></span> Pricing
+            <div className="flex items-center justify-center gap-2 text-daily-yellow font-bold uppercase text-xs tracking-widest mb-6">
+              <span className="w-2 h-2 bg-daily-yellow rounded-full"></span> Pricing
             </div>
             <h1 className="text-6xl md:text-8xl lg:text-9xl font-black tracking-tighter leading-none mb-8">
               SIMPLE,<br />
@@ -123,7 +123,7 @@ export default function PricingPage() {
                 <tr className="border-b-2 border-gray-200">
                   <th className="text-left py-6 px-4 font-bold text-lg">Feature</th>
                   <th className="text-center py-6 px-4 font-bold text-lg">Starter</th>
-                  <th className="text-center py-6 px-4 font-bold text-lg bg-[#d1fa3c]/10">Professional</th>
+                  <th className="text-center py-6 px-4 font-bold text-lg bg-daily-yellow/10">Professional</th>
                   <th className="text-center py-6 px-4 font-bold text-lg">Enterprise</th>
                 </tr>
               </thead>
@@ -132,7 +132,7 @@ export default function PricingPage() {
                   <tr key={index} className="border-b border-gray-100 hover:bg-gray-50">
                     <td className="py-6 px-4 font-medium">{item.feature}</td>
                     <td className="py-6 px-4 text-center">{renderValue(item.starter)}</td>
-                    <td className="py-6 px-4 text-center bg-[#d1fa3c]/5">{renderValue(item.professional)}</td>
+                    <td className="py-6 px-4 text-center bg-daily-yellow/5">{renderValue(item.professional)}</td>
                     <td className="py-6 px-4 text-center">{renderValue(item.enterprise)}</td>
                   </tr>
                 ))}
@@ -155,7 +155,7 @@ export default function PricingPage() {
       <FAQ />
 
       {/* CTA */}
-      <section className="py-[80px] bg-[#d1fa3c]">
+      <section className="py-[80px] bg-daily-yellow">
         <div className="container mx-auto px-6 md:px-12 max-w-4xl text-center">
           <h2 className="text-4xl xs:text-5xl lg:text-7xl font-bold mb-8">
             READY TO<br />GET STARTED?

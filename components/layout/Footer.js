@@ -15,7 +15,7 @@ export default function Footer() {
             <span className="text-gray-500">for your brand.</span>
           </h2>
           <div className="flex items-center flex-wrap sm:!flex-nowrap gap-4">
-            <h3 className="text-3xl font-bold">Daily Mode<span className="text-[#d1fa3c]">*</span></h3>
+            <h3 className="text-3xl font-bold">Daily Mode<span className="text-daily-yellow">*</span></h3>
             <button onClick={toggleContact} className="border border-white/30 px-6 py-2 rounded-full hover:bg-white hover:text-black transition">
               START MY JOURNEY
             </button>

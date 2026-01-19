@@ -3,8 +3,8 @@ export default function BlogHero() {
     <section className="pt-32 pb-20 bg-gradient-to-b from-gray-50 to-white">
       <div className="container mx-auto px-6 md:px-12 max-w-7xl">
         <div className="text-center">
-          <div className="flex items-center justify-center gap-2 text-[#d1fa3c] font-bold uppercase text-xs tracking-widest mb-6">
-            <span className="w-2 h-2 bg-[#d1fa3c] rounded-full"></span> Insights & Articles
+          <div className="flex items-center justify-center gap-2 text-daily-yellow font-bold uppercase text-xs tracking-widest mb-6">
+            <span className="w-2 h-2 bg-daily-yellow rounded-full"></span> Insights & Articles
           </div>
           <h1 className="text-6xl md:text-8xl font-black tracking-tighter leading-none mb-8">
             DAILY<br />INSIGHTS

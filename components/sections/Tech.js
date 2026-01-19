@@ -40,8 +40,8 @@ export default function Tech() {
       <div className="container mx-auto px-6 md:px-12 max-w-7xl">
         <div className="grid lg:grid-cols-2 lg:gap-4 items-center">
           <div className="text-center lg:!text-left mb-20">
-            <div className="flex items-center justify-center lg:justify-start gap-2 text-[#d1fa3c] font-bold uppercase text-xs tracking-widest mb-6">
-              <span className="w-2 h-2 bg-[#d1fa3c] rounded-full"></span>{" "}
+            <div className="flex items-center justify-center lg:justify-start gap-2 text-daily-yellow font-bold uppercase text-xs tracking-widest mb-6">
+              <span className="w-2 h-2 bg-daily-yellow rounded-full"></span>{" "}
               Technology Stack
             </div>
             <h2 className="text-4xl xs:text-5xl lg:text-7xl font-bold tracking-tight mb-6">
@@ -60,7 +60,7 @@ export default function Tech() {
             <div className="absolute inset-0 flex items-center justify-center">
               {/* Center Core */}
               <div className="absolute w-32 h-32 bg-black rounded-full flex items-center justify-center z-20">
-                <span className="text-[#d1fa3c] font-bold text-2xl">AI</span>
+                <span className="text-daily-yellow font-bold text-2xl">AI</span>
               </div>
 
               {/* Orbiting Technologies */}
@@ -82,7 +82,7 @@ export default function Tech() {
                       }}
                     >
                       <div
-                        className="w-24 h-24 bg-gray-100 rounded-full flex flex-col items-center justify-center border-2 border-gray-200 hover:border-[#d1fa3c] hover:bg-[#d1fa3c] hover:scale-110  cursor-pointer "
+                        className="w-24 h-24 bg-gray-100 rounded-full flex flex-col items-center justify-center border-2 border-gray-200 hover:border-daily-yellow hover:bg-daily-yellow hover:scale-110  cursor-pointer "
                         style={{
                           transform: `translate(-50%, -50%) rotate(-${rotation}deg)`,
                         }}

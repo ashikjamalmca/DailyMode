@@ -12,8 +12,8 @@ export default function About() {
 
       <div className="grid grid-cols-1 md:grid-cols-12 gap-10">
         <div className="md:col-span-3">
-          <div className="flex items-center gap-2 text-[#d1fa3c] font-bold uppercase text-xs tracking-widest mb-4">
-            <span className="w-2 h-2 bg-[#d1fa3c] rounded-full"></span> About us
+          <div className="flex items-center gap-2 text-daily-yellow font-bold uppercase text-xs tracking-widest mb-4">
+            <span className="w-2 h-2 bg-daily-yellow rounded-full"></span> About us
           </div>
           <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
             We are digital game-changers with a good vibe attitude. Driven by human connection and a growth mindset.

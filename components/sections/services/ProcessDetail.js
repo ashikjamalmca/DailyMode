@@ -55,7 +55,7 @@ export default function ProcessDetail() {
       <div className="container mx-auto px-6 md:px-12 max-w-7xl">
         <div className="text-center mb-20">
           <div className="flex items-center justify-center gap-2 text-black font-bold uppercase text-xs tracking-widest mb-6">
-            <span className="w-2 h-2 bg-[#d1fa3c] rounded-full"></span> Our Process
+            <span className="w-2 h-2 bg-daily-yellow rounded-full"></span> Our Process
           </div>
           <h2 className="text-4xl xs:text-5xl lg:text-7xl font-bold mb-6">
             HOW WE<br />DELIVER
@@ -66,7 +66,7 @@ export default function ProcessDetail() {
           {phases.map((item, index) => (
             <div 
               key={index}
-              className="bg-white border border-gray-200 rounded-2xl p-8 md:p-12 hover:border-[#d1fa3c] hover:shadow-xl transition-all duration-300"
+              className="bg-white border border-gray-200 rounded-2xl p-8 md:p-12 hover:border-daily-yellow hover:shadow-xl transition-all duration-300"
             >
               <div className="grid grid-cols-1 md:grid-cols-12 gap-8">
                 <div className="md:col-span-4">
@@ -80,7 +80,7 @@ export default function ProcessDetail() {
                   <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     {item.activities.map((activity, idx) => (
                       <li key={idx} className="flex items-start gap-3">
-                        <span className="w-6 h-6 bg-[#d1fa3c] rounded-full flex items-center justify-center text-black text-xs font-bold flex-shrink-0 mt-1">
+                        <span className="w-6 h-6 bg-daily-yellow rounded-full flex items-center justify-center text-black text-xs font-bold flex-shrink-0 mt-1">
                           {idx + 1}
                         </span>
                         <span className="text-lg">{activity}</span>

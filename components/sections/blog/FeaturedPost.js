@@ -25,14 +25,14 @@ export default function FeaturedPost() {
                 className="w-full h-full object-cover"
               />
               <div className="absolute top-6 left-6">
-                <span className="bg-[#d1fa3c] text-black px-4 py-2 rounded-full text-sm font-bold">
+                <span className="bg-daily-yellow text-black px-4 py-2 rounded-full text-sm font-bold">
                   Featured
                 </span>
               </div>
             </div>
             
             <div className="p-8 md:p-12 flex flex-col justify-center">
-              <div className="text-[#d1fa3c] text-sm font-bold uppercase tracking-wide mb-4">
+              <div className="text-daily-yellow text-sm font-bold uppercase tracking-wide mb-4">
                 {featured.category}
               </div>
               <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
@@ -59,7 +59,7 @@ export default function FeaturedPost() {
                 </div>
               </div>
               
-              <button className="mt-8 bg-[#d1fa3c] text-black px-8 py-4 rounded-full font-bold hover:scale-105 transition-transform inline-flex items-center gap-2 group w-fit">
+              <button className="mt-8 bg-daily-yellow text-black px-8 py-4 rounded-full font-bold hover:scale-105 transition-transform inline-flex items-center gap-2 group w-fit">
                 Read Article
                 <span className="group-hover:translate-x-2 transition-transform">→</span>
               </button>

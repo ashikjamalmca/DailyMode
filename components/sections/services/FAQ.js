@@ -37,7 +37,7 @@ export default function FAQ() {
       <div className="container mx-auto px-6 md:px-12 max-w-4xl">
         <div className="text-center mb-20">
           <div className="flex items-center justify-center gap-2 text-black font-bold uppercase text-xs tracking-widest mb-6">
-            <span className="w-2 h-2 bg-[#d1fa3c] rounded-full"></span> FAQ
+            <span className="w-2 h-2 bg-daily-yellow rounded-full"></span> FAQ
           </div>
           <h2 className="text-4xl xs:text-4xl xs:text-5xl lg:text-7xl font-bold mb-6">
             GOT<br />QUESTIONS?
@@ -48,7 +48,7 @@ export default function FAQ() {
           {faqs.map((faq, index) => (
             <div 
               key={index}
-              className="border border-gray-200 rounded-2xl overflow-hidden hover:border-[#d1fa3c] transition-colors"
+              className="border border-gray-200 rounded-2xl overflow-hidden hover:border-daily-yellow transition-colors"
             >
               <button
                 onClick={() => setOpenIndex(openIndex === index ? -1 : index)}

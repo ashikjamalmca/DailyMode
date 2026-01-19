@@ -87,17 +87,17 @@ export default function BlogPage() {
       {/* Hero */}
       <section className="min-h-[70vh] pt-32 pb-20 flex items-center relative overflow-hidden bg-black text-white">
         <div className="absolute inset-0">
-          <div className="absolute top-20 left-20 w-96 h-96 bg-[#d1fa3c] rounded-full blur-3xl opacity-20 animate-pulse"></div>
-          <div className="absolute bottom-20 right-20 w-96 h-96 bg-[#d1fa3c] rounded-full blur-3xl opacity-20 animate-pulse" style={{ animationDelay: '1s' }}></div>
+          <div className="absolute top-20 left-20 w-96 h-96 bg-daily-yellow rounded-full blur-3xl opacity-20 animate-pulse"></div>
+          <div className="absolute bottom-20 right-20 w-96 h-96 bg-daily-yellow rounded-full blur-3xl opacity-20 animate-pulse" style={{ animationDelay: '1s' }}></div>
         </div>
         
         <div className="container mx-auto px-6 md:px-12 max-w-7xl relative z-10">
           <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 bg-[#d1fa3c]/10 text-[#d1fa3c] font-semibold uppercase text-xs tracking-widest mb-6 px-4 py-2 rounded-full border border-[#d1fa3c]/20">
-              <span className="w-2 h-2 bg-[#d1fa3c] rounded-full"></span> Insights & Articles
+            <div className="inline-flex items-center gap-2 bg-daily-yellow/10 text-daily-yellow font-semibold uppercase text-xs tracking-widest mb-6 px-4 py-2 rounded-full border border-daily-yellow/20">
+              <span className="w-2 h-2 bg-daily-yellow rounded-full"></span> Insights & Articles
             </div>
             <h1 className="text-6xl md:text-8xl lg:text-9xl font-black tracking-tighter leading-none mb-8">
-              <span className="text-[#d1fa3c]">BLOG</span>
+              <span className="text-daily-yellow">BLOG</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-400 leading-relaxed">
               Thoughts, tutorials, and insights on web development, AI, design, and digital innovation.
@@ -136,15 +136,15 @@ export default function BlogPage() {
                     alt={articles[0].title}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
-                  <div className="absolute top-6 left-6 bg-[#d1fa3c] text-black px-4 py-2 rounded-full text-xs font-bold uppercase">
+                  <div className="absolute top-6 left-6 bg-daily-yellow text-black px-4 py-2 rounded-full text-xs font-bold uppercase">
                     Featured
                   </div>
                 </div>
                 <div className="p-8 lg:p-12 flex flex-col justify-center">
-                  <div className="text-[#d1fa3c] text-xs font-bold uppercase tracking-wide mb-4">
+                  <div className="text-daily-yellow text-xs font-bold uppercase tracking-wide mb-4">
                     {articles[0].category}
                   </div>
-                  <h2 className="text-4xl md:text-5xl font-bold mb-6 group-hover:text-[#d1fa3c] transition-colors">
+                  <h2 className="text-4xl md:text-5xl font-bold mb-6 group-hover:text-daily-yellow transition-colors">
                     {articles[0].title}
                   </h2>
                   <p className="text-xl text-gray-600 mb-6 leading-relaxed">
@@ -178,10 +178,10 @@ export default function BlogPage() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 </div>
-                <div className="text-[#d1fa3c] text-xs font-bold uppercase tracking-wide mb-3">
+                <div className="text-daily-yellow text-xs font-bold uppercase tracking-wide mb-3">
                   {article.category}
                 </div>
-                <h3 className="text-2xl font-bold mb-3 group-hover:text-[#d1fa3c] transition-colors">
+                <h3 className="text-2xl font-bold mb-3 group-hover:text-daily-yellow transition-colors">
                   {article.title}
                 </h3>
                 <p className="text-gray-600 mb-4 leading-relaxed">

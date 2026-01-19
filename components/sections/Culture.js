@@ -31,7 +31,7 @@ export default function Culture() {
       </div>
 
       <div className="absolute bottom-10 left-10 md:left-[15%] w-64 bg-black text-white p-4 rounded-xl shadow-2xl flex items-center gap-4 z-20 culture-img">
-        <div className="w-12 h-12 bg-[#d1fa3c] rounded flex items-center justify-center text-black font-bold">vibes</div>
+        <div className="w-12 h-12 bg-daily-yellow rounded flex items-center justify-center text-black font-bold">vibes</div>
         <div>
           <div className="text-xs text-gray-400">Now Playing</div>
           <div className="font-bold text-sm">We Are The People</div>

@@ -105,23 +105,23 @@ export default function CareersPage() {
       {/* Hero */}
       <section className="min-h-screen pt-32 pb-20 flex items-center relative overflow-hidden bg-black text-white">
         <div className="absolute inset-0">
-          <div className="absolute top-20 left-20 w-96 h-96 bg-[#d1fa3c] rounded-full blur-3xl opacity-20 animate-pulse"></div>
+          <div className="absolute top-20 left-20 w-96 h-96 bg-daily-yellow rounded-full blur-3xl opacity-20 animate-pulse"></div>
           <div
-            className="absolute bottom-20 right-20 w-96 h-96 bg-[#d1fa3c] rounded-full blur-3xl opacity-20 animate-pulse"
+            className="absolute bottom-20 right-20 w-96 h-96 bg-daily-yellow rounded-full blur-3xl opacity-20 animate-pulse"
             style={{ animationDelay: "1s" }}
           ></div>
         </div>
 
         <div className="container mx-auto px-6 md:px-12 max-w-7xl relative z-10">
           <div className="max-w-4xl">
-            <div className="flex items-center gap-2 text-[#d1fa3c] font-bold uppercase text-xs tracking-widest mb-6">
-              <span className="w-2 h-2 bg-[#d1fa3c] rounded-full"></span> Join
+            <div className="flex items-center gap-2 text-daily-yellow font-bold uppercase text-xs tracking-widest mb-6">
+              <span className="w-2 h-2 bg-daily-yellow rounded-full"></span> Join
               Our Team
             </div>
             <h1 className="text-6xl md:text-8xl lg:text-9xl font-black tracking-tighter leading-none mb-8">
               BUILD THE
               <br />
-              <span className="text-[#d1fa3c]">FUTURE</span>
+              <span className="text-daily-yellow">FUTURE</span>
               <br />
               WITH US
             </h1>
@@ -176,8 +176,8 @@ export default function CareersPage() {
       <section className="py-[80px] bg-gray-50">
         <div className="container mx-auto px-6 md:px-12 max-w-7xl">
           <div className="text-center mb-20">
-            <div className="flex items-center justify-center gap-2 text-[#d1fa3c] font-bold uppercase text-xs tracking-widest mb-6">
-              <span className="w-2 h-2 bg-[#d1fa3c] rounded-full"></span> Open
+            <div className="flex items-center justify-center gap-2 text-daily-yellow font-bold uppercase text-xs tracking-widest mb-6">
+              <span className="w-2 h-2 bg-daily-yellow rounded-full"></span> Open
               Positions
             </div>
             <h2 className="text-4xl xs:text-5xl lg:text-7xl font-bold mb-6">
@@ -193,7 +193,7 @@ export default function CareersPage() {
               >
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-4">
                   <div>
-                    <h3 className="text-2xl font-bold mb-2 group-hover:text-[#d1fa3c] transition-colors">
+                    <h3 className="text-2xl font-bold mb-2 group-hover:text-daily-yellow transition-colors">
                       {job.title}
                     </h3>
                     <div className="flex flex-wrap gap-3 text-sm text-gray-600">
@@ -203,7 +203,7 @@ export default function CareersPage() {
                       <span>•</span>
                       <span>{job.type}</span>
                       <span>•</span>
-                      <span className="text-[#d1fa3c] font-semibold">
+                      <span className="text-daily-yellow font-semibold">
                         {job.department}
                       </span>
                     </div>
@@ -238,7 +238,7 @@ export default function CareersPage() {
             </p>
             <button
               onClick={toggleContact}
-              className="bg-[#d1fa3c] text-black px-8 py-4 rounded-full font-bold hover:scale-105 transition-transform"
+              className="bg-daily-yellow text-black px-8 py-4 rounded-full font-bold hover:scale-105 transition-transform"
             >
               Get In Touch
             </button>

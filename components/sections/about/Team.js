@@ -43,8 +43,8 @@ export default function Team() {
       <div className="container mx-auto px-6 md:px-12 max-w-7xl">
         <div className="text-center mb-20">
           <div className="flex justify-center mb-6">
-            <div className="inline-flex items-center gap-2 bg-[#d1fa3c]/10 text-black font-semibold uppercase text-xs tracking-widest px-4 py-2 rounded-full border border-[#d1fa3c]/20">
-              <span className="w-2 h-2 bg-[#d1fa3c] rounded-full"></span> Our Team
+            <div className="inline-flex items-center gap-2 bg-daily-yellow/10 text-black font-semibold uppercase text-xs tracking-widest px-4 py-2 rounded-full border border-daily-yellow/20">
+              <span className="w-2 h-2 bg-daily-yellow rounded-full"></span> Our Team
             </div>
           </div>
           <h2 className="text-4xl xs:text-5xl lg:text-7xl font-bold mb-6">

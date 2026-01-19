@@ -28,7 +28,7 @@ export default function Hero() {
       const randomIndex = Math.floor(Math.random() * cells.length);
       const cell = cells[randomIndex];
       
-      cell.style.backgroundColor = '#d1fa3c';
+      cell.style.backgroundColor = '#FFF58A';
       cell.style.opacity = '0.6';
       
       setTimeout(() => {

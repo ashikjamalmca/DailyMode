@@ -25,7 +25,7 @@ export default function CTA() {
   };
 
   return (
-    <section className="pt-32 md:pt-48 pb-32 md:pb-48 bg-[#d1fa3c] relative overflow-hidden" id="cta">
+    <section className="pt-32 md:pt-48 pb-32 md:pb-48 bg-daily-yellow relative overflow-hidden" id="cta">
       {/* Animated Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-10 left-10 w-64 h-64 bg-black rounded-full blur-3xl animate-pulse"></div>

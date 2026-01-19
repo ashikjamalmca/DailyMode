@@ -53,8 +53,8 @@ export default function Pricing() {
     <section className="py-[80px] bg-black text-white">
       <div className="container mx-auto px-6 md:px-12 max-w-7xl">
         <div className="text-center mb-20">
-          <div className="flex items-center justify-center gap-2 text-[#d1fa3c] font-bold uppercase text-xs tracking-widest mb-6">
-            <span className="w-2 h-2 bg-[#d1fa3c] rounded-full"></span> Pricing
+          <div className="flex items-center justify-center gap-2 text-daily-yellow font-bold uppercase text-xs tracking-widest mb-6">
+            <span className="w-2 h-2 bg-daily-yellow rounded-full"></span> Pricing
           </div>
           <h2 className="text-4xl xs:text-4xl xs:text-5xl lg:text-7xl font-bold mb-6">
             TRANSPARENT<br />PRICING
@@ -70,7 +70,7 @@ export default function Pricing() {
               key={index}
               className={`rounded-2xl p-8 ${
                 pkg.highlight 
-                  ? 'bg-[#d1fa3c] text-black scale-105' 
+                  ? 'bg-daily-yellow text-black scale-105' 
                   : 'bg-white/5 border border-white/10'
               }`}
             >
@@ -87,7 +87,7 @@ export default function Pricing() {
               <ul className="space-y-3 mb-8">
                 {pkg.features.map((feature, idx) => (
                   <li key={idx} className="flex items-center gap-3">
-                    <span className={`w-2 h-2 rounded-full ${pkg.highlight ? 'bg-black' : 'bg-[#d1fa3c]'}`}></span>
+                    <span className={`w-2 h-2 rounded-full ${pkg.highlight ? 'bg-black' : 'bg-daily-yellow'}`}></span>
                     <span>{feature}</span>
                   </li>
                 ))}

@@ -128,7 +128,7 @@ export default function ProjectOverlay() {
               {currentProject.desc}
             </p>
             <div className="mt-12 flex gap-4">
-              <button className="bg-[#d1fa3c] px-8 py-3 rounded-full font-bold text-sm hover:scale-105 transition-transform">
+              <button className="bg-daily-yellow px-8 py-3 rounded-full font-bold text-sm hover:scale-105 transition-transform">
                 Visit Website
               </button>
             </div>

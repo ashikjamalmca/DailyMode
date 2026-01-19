@@ -116,15 +116,15 @@ export default function BlogGrid() {
                     alt={articles[0].title}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
-                  <div className="absolute top-6 left-6 bg-[#d1fa3c] text-black px-4 py-2 rounded-full text-xs font-bold uppercase">
+                  <div className="absolute top-6 left-6 bg-daily-yellow text-black px-4 py-2 rounded-full text-xs font-bold uppercase">
                     Featured
                   </div>
                 </div>
                 <div className="p-8 lg:p-12 flex flex-col justify-center">
-                  <div className="text-[#d1fa3c] text-xs font-bold uppercase tracking-wide mb-4">
+                  <div className="text-daily-yellow text-xs font-bold uppercase tracking-wide mb-4">
                     {articles[0].category}
                   </div>
-                  <h2 className="text-4xl md:text-5xl font-bold mb-6 group-hover:text-[#d1fa3c] transition-colors">
+                  <h2 className="text-4xl md:text-5xl font-bold mb-6 group-hover:text-daily-yellow transition-colors">
                     {articles[0].title}
                   </h2>
                   <p className="text-xl text-gray-600 mb-6 leading-relaxed">
@@ -159,10 +159,10 @@ export default function BlogGrid() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 </div>
-                <div className="text-[#d1fa3c] text-xs font-bold uppercase tracking-wide mb-3">
+                <div className="text-daily-yellow text-xs font-bold uppercase tracking-wide mb-3">
                   {article.category}
                 </div>
-                <h3 className="text-2xl font-bold mb-3 group-hover:text-[#d1fa3c] transition-colors">
+                <h3 className="text-2xl font-bold mb-3 group-hover:text-daily-yellow transition-colors">
                   {article.title}
                 </h3>
                 <p className="text-gray-600 mb-4 leading-relaxed">

@@ -114,7 +114,7 @@ export default function ProjectDetail() {
         
         <div className="container mx-auto px-6 md:px-12 max-w-7xl relative z-10 pb-20">
           <div className="flex items-center gap-3 mb-6">
-            <span className="bg-[#d1fa3c] text-black px-4 py-2 rounded-full text-xs font-bold uppercase">
+            <span className="bg-daily-yellow text-black px-4 py-2 rounded-full text-xs font-bold uppercase">
               {project.category}
             </span>
             <span className="text-gray-400">{project.year}</span>
@@ -181,7 +181,7 @@ export default function ProjectDetail() {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             {project.results.map((result, index) => (
               <div key={index} className="text-center">
-                <div className="text-5xl md:text-6xl font-black text-[#d1fa3c] mb-4">
+                <div className="text-5xl md:text-6xl font-black text-daily-yellow mb-4">
                   {result.metric}
                 </div>
                 <div className="text-lg text-gray-400">
@@ -218,7 +218,7 @@ export default function ProjectDetail() {
             {project.tech.map((tech, index) => (
               <div 
                 key={index}
-                className="bg-white border-2 border-gray-200 px-6 py-3 rounded-full text-lg font-bold hover:border-[#d1fa3c] transition-colors"
+                className="bg-white border-2 border-gray-200 px-6 py-3 rounded-full text-lg font-bold hover:border-daily-yellow transition-colors"
               >
                 {tech}
               </div>
@@ -228,7 +228,7 @@ export default function ProjectDetail() {
       </section>
 
       {/* Testimonial */}
-      <section className="py-[80px] bg-[#d1fa3c]">
+      <section className="py-[80px] bg-daily-yellow">
         <div className="container mx-auto px-6 md:px-12 max-w-4xl text-center">
           <div className="text-6xl mb-8">"</div>
           <p className="text-3xl md:text-4xl font-bold mb-12 leading-relaxed">

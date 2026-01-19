@@ -5,23 +5,23 @@ export default function Marquee() {
         <div className="marquee-inner flex whitespace-nowrap gap-8 text-2xl md:text-4xl font-bold uppercase tracking-wider" style={{ WebkitTextStroke: '1px black', color: 'transparent' }}>
           <div className="flex gap-8 items-center">
             <span>Better Performance</span> 
-            <span className="text-[#d1fa3c]" style={{ WebkitTextStroke: '0', color: '#d1fa3c' }}>☀</span> 
+            <span className="text-daily-yellow" style={{ WebkitTextStroke: '0', color: '#FFF58A' }}>☀</span> 
             <span className="text-black" style={{ WebkitTextStroke: '0', color: 'black' }}>Good Vibes</span> 
-            <span className="text-[#d1fa3c]" style={{ WebkitTextStroke: '0', color: '#d1fa3c' }}>☀</span>
+            <span className="text-daily-yellow" style={{ WebkitTextStroke: '0', color: '#FFF58A' }}>☀</span>
             <span>Better Performance</span> 
-            <span className="text-[#d1fa3c]" style={{ WebkitTextStroke: '0', color: '#d1fa3c' }}>☀</span> 
+            <span className="text-daily-yellow" style={{ WebkitTextStroke: '0', color: '#FFF58A' }}>☀</span> 
             <span className="text-black" style={{ WebkitTextStroke: '0', color: 'black' }}>Good Vibes</span> 
-            <span className="text-[#d1fa3c]" style={{ WebkitTextStroke: '0', color: '#d1fa3c' }}>☀</span>
+            <span className="text-daily-yellow" style={{ WebkitTextStroke: '0', color: '#FFF58A' }}>☀</span>
           </div>
           <div className="flex gap-8 items-center">
             <span>Better Performance</span> 
-            <span className="text-[#d1fa3c]" style={{ WebkitTextStroke: '0', color: '#d1fa3c' }}>☀</span> 
+            <span className="text-daily-yellow" style={{ WebkitTextStroke: '0', color: '#FFF58A' }}>☀</span> 
             <span className="text-black" style={{ WebkitTextStroke: '0', color: 'black' }}>Good Vibes</span> 
-            <span className="text-[#d1fa3c]" style={{ WebkitTextStroke: '0', color: '#d1fa3c' }}>☀</span>
+            <span className="text-daily-yellow" style={{ WebkitTextStroke: '0', color: '#FFF58A' }}>☀</span>
             <span>Better Performance</span> 
-            <span className="text-[#d1fa3c]" style={{ WebkitTextStroke: '0', color: '#d1fa3c' }}>☀</span> 
+            <span className="text-daily-yellow" style={{ WebkitTextStroke: '0', color: '#FFF58A' }}>☀</span> 
             <span className="text-black" style={{ WebkitTextStroke: '0', color: 'black' }}>Good Vibes</span> 
-            <span className="text-[#d1fa3c]" style={{ WebkitTextStroke: '0', color: '#d1fa3c' }}>☀</span>
+            <span className="text-daily-yellow" style={{ WebkitTextStroke: '0', color: '#FFF58A' }}>☀</span>
           </div>
         </div>
       </div>

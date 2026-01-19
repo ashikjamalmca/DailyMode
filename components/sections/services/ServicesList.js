@@ -102,7 +102,7 @@ export default function ServicesList() {
                 <ul className="space-y-3">
                   {services[activeService].features.map((feature, index) => (
                     <li key={index} className="flex items-center gap-3">
-                      <span className="w-2 h-2 bg-[#d1fa3c] rounded-full"></span>
+                      <span className="w-2 h-2 bg-daily-yellow rounded-full"></span>
                       <span className="text-lg">{feature}</span>
                     </li>
                   ))}

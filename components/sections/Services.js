@@ -4,8 +4,8 @@ export default function Services() {
       <div className="container mx-auto px-6 md:px-12 max-w-7xl">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
         <div id="automation">
-          <div className="flex items-center gap-2 text-[#d1fa3c] font-bold uppercase text-xs tracking-widest mb-6 service-badge-anim">
-            <span className="w-2 h-2 bg-[#d1fa3c] rounded-full"></span> Expertise
+          <div className="flex items-center gap-2 text-daily-yellow font-bold uppercase text-xs tracking-widest mb-6 service-badge-anim">
+            <span className="w-2 h-2 bg-daily-yellow rounded-full"></span> Expertise
           </div>
           <h3 className="text-3xl font-bold leading-tight mb-6 service-title-anim">
             Multi-disciplinary teams working on your business goals.

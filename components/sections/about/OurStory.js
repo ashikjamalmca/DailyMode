@@ -5,7 +5,7 @@ export default function OurStory() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
           <div className="lg:col-span-5">
             <h2 className="text-5xl md:text-6xl font-bold mb-6">Our Story</h2>
-            <div className="w-20 h-1 bg-[#d1fa3c] mb-8"></div>
+            <div className="w-20 h-1 bg-daily-yellow mb-8"></div>
           </div>
           
           <div className="lg:col-span-7 space-y-8">

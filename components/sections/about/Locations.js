@@ -31,8 +31,8 @@ export default function Locations() {
       <div className="container mx-auto px-6 md:px-12 max-w-7xl">
         <div className="text-center mb-20">
           <div className="flex justify-center mb-6">
-            <div className="inline-flex items-center gap-2 bg-[#d1fa3c]/10 text-black font-semibold uppercase text-xs tracking-widest px-4 py-2 rounded-full border border-[#d1fa3c]/20">
-              <span className="w-2 h-2 bg-[#d1fa3c] rounded-full"></span> Our Locations
+            <div className="inline-flex items-center gap-2 bg-daily-yellow/10 text-black font-semibold uppercase text-xs tracking-widest px-4 py-2 rounded-full border border-daily-yellow/20">
+              <span className="w-2 h-2 bg-daily-yellow rounded-full"></span> Our Locations
             </div>
           </div>
           <h2 className="text-5xl lg:text-7xl font-black tracking-tight mb-6">
@@ -62,7 +62,7 @@ export default function Locations() {
                 <div className="absolute bottom-6 left-6 right-6">
                   <div className="flex items-center gap-3 mb-2">
                     <h3 className="text-3xl md:text-5xl font-black text-white">{location.city}</h3>
-                    <span className="bg-[#d1fa3c] text-black px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wide">
+                    <span className="bg-daily-yellow text-black px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wide">
                       {location.label}
                     </span>
                   </div>
@@ -74,7 +74,7 @@ export default function Locations() {
                 <div className="space-y-4">
                   {/* Address */}
                   <div className="flex items-start gap-4">
-                    <div className="w-10 h-10 bg-[#d1fa3c] rounded-full flex items-center justify-center flex-shrink-0">
+                    <div className="w-10 h-10 bg-daily-yellow rounded-full flex items-center justify-center flex-shrink-0">
                       <span className="text-xl">📍</span>
                     </div>
                     <div>
@@ -85,11 +85,11 @@ export default function Locations() {
 
                   {/* Phone */}
                   <div className="flex items-start gap-4">
-                    <div className="w-10 h-10 bg-[#d1fa3c] rounded-full flex items-center justify-center flex-shrink-0">
+                    <div className="w-10 h-10 bg-daily-yellow rounded-full flex items-center justify-center flex-shrink-0">
                       <span className="text-xl">📞</span>
                     </div>
                     <div>
-                      <a href={`tel:${location.phone}`} className="font-semibold text-gray-900 hover:text-[#d1fa3c] transition-colors">
+                      <a href={`tel:${location.phone}`} className="font-semibold text-gray-900 hover:text-daily-yellow transition-colors">
                         {location.phone}
                       </a>
                     </div>
@@ -97,11 +97,11 @@ export default function Locations() {
 
                   {/* Email */}
                   <div className="flex items-start gap-4">
-                    <div className="w-10 h-10 bg-[#d1fa3c] rounded-full flex items-center justify-center flex-shrink-0">
+                    <div className="w-10 h-10 bg-daily-yellow rounded-full flex items-center justify-center flex-shrink-0">
                       <span className="text-xl">✉️</span>
                     </div>
                     <div>
-                      <a href={`mailto:${location.email}`} className="font-semibold text-gray-900 hover:text-[#d1fa3c] transition-colors">
+                      <a href={`mailto:${location.email}`} className="font-semibold text-gray-900 hover:text-daily-yellow transition-colors">
                         {location.email}
                       </a>
                     </div>
@@ -109,7 +109,7 @@ export default function Locations() {
 
                   {/* Hours */}
                   <div className="flex items-start gap-4">
-                    <div className="w-10 h-10 bg-[#d1fa3c] rounded-full flex items-center justify-center flex-shrink-0">
+                    <div className="w-10 h-10 bg-daily-yellow rounded-full flex items-center justify-center flex-shrink-0">
                       <span className="text-xl">🕐</span>
                     </div>
                     <div>
@@ -141,7 +141,7 @@ export default function Locations() {
           </p>
           <button 
             onClick={() => window.dispatchEvent(new CustomEvent('toggleContact', { detail: true }))}
-            className="bg-[#d1fa3c] text-black px-10 py-5 rounded-full font-bold text-lg hover:scale-105 transition-transform inline-flex items-center gap-3"
+            className="bg-daily-yellow text-black px-10 py-5 rounded-full font-bold text-lg hover:scale-105 transition-transform inline-flex items-center gap-3"
           >
             Schedule a Call
             <span>📅</span>

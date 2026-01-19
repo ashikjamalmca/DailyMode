@@ -81,18 +81,18 @@ export default function AllWork() {
       {/* Hero */}
       <section className="min-h-[70vh] pt-32 pb-20 flex items-center relative overflow-hidden bg-black text-white">
         <div className="absolute inset-0">
-          <div className="absolute top-20 left-20 w-96 h-96 bg-[#d1fa3c] rounded-full blur-3xl opacity-20 animate-pulse"></div>
-          <div className="absolute bottom-20 right-20 w-96 h-96 bg-[#d1fa3c] rounded-full blur-3xl opacity-20 animate-pulse" style={{ animationDelay: '1s' }}></div>
+          <div className="absolute top-20 left-20 w-96 h-96 bg-daily-yellow rounded-full blur-3xl opacity-20 animate-pulse"></div>
+          <div className="absolute bottom-20 right-20 w-96 h-96 bg-daily-yellow rounded-full blur-3xl opacity-20 animate-pulse" style={{ animationDelay: '1s' }}></div>
         </div>
         
         <div className="container mx-auto px-6 md:px-12 max-w-7xl relative z-10">
           <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 bg-[#d1fa3c]/10 text-[#d1fa3c] font-semibold uppercase text-xs tracking-widest mb-6 px-4 py-2 rounded-full border border-[#d1fa3c]/20">
-              <span className="w-2 h-2 bg-[#d1fa3c] rounded-full"></span> Our Work
+            <div className="inline-flex items-center gap-2 bg-daily-yellow/10 text-daily-yellow font-semibold uppercase text-xs tracking-widest mb-6 px-4 py-2 rounded-full border border-daily-yellow/20">
+              <span className="w-2 h-2 bg-daily-yellow rounded-full"></span> Our Work
             </div>
             <h1 className="text-6xl md:text-8xl lg:text-9xl font-black tracking-tighter leading-none mb-8">
               ALL<br />
-              <span className="text-[#d1fa3c]">WORK</span>
+              <span className="text-daily-yellow">WORK</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-400 leading-relaxed">
               Explore our portfolio of digital experiences, platforms, and AI solutions

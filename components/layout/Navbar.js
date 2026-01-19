@@ -66,7 +66,7 @@ export default function Navbar({ dark = false }) {
               href="/about"
               className={`nav-link hidden md:block text-sm font-medium transition-colors relative ${
                 isActive("/about") 
-                  ? `${dark ? 'text-white' : 'text-black'} font-bold after:absolute after:bottom-[-8px] after:left-0 after:w-full after:h-0.5 after:bg-[#d1fa3c]` 
+                  ? `${dark ? 'text-white' : 'text-black'} font-bold after:absolute after:bottom-[-8px] after:left-0 after:w-full after:h-0.5 after:bg-daily-yellow` 
                   : `${dark ? 'text-gray-300 hover:text-white' : 'text-gray-600 hover:text-black'}`
               }`}
             >
@@ -76,7 +76,7 @@ export default function Navbar({ dark = false }) {
               href="/services"
               className={`nav-link hidden md:block text-sm font-medium transition-colors relative ${
                 isActive("/services") 
-                  ? `${dark ? 'text-white' : 'text-black'} font-bold after:absolute after:bottom-[-8px] after:left-0 after:w-full after:h-0.5 after:bg-[#d1fa3c]` 
+                  ? `${dark ? 'text-white' : 'text-black'} font-bold after:absolute after:bottom-[-8px] after:left-0 after:w-full after:h-0.5 after:bg-daily-yellow` 
                   : `${dark ? 'text-gray-300 hover:text-white' : 'text-gray-600 hover:text-black'}`
               }`}
             >
@@ -86,7 +86,7 @@ export default function Navbar({ dark = false }) {
               href="/work"
               className={`nav-link hidden md:block text-sm font-medium transition-colors relative ${
                 isActive("/work") 
-                  ? `${dark ? 'text-white' : 'text-black'} font-bold after:absolute after:bottom-[-8px] after:left-0 after:w-full after:h-0.5 after:bg-[#d1fa3c]` 
+                  ? `${dark ? 'text-white' : 'text-black'} font-bold after:absolute after:bottom-[-8px] after:left-0 after:w-full after:h-0.5 after:bg-daily-yellow` 
                   : `${dark ? 'text-gray-300 hover:text-white' : 'text-gray-600 hover:text-black'}`
               }`}
             >
@@ -96,7 +96,7 @@ export default function Navbar({ dark = false }) {
               href="/blog"
               className={`nav-link hidden md:block text-sm font-medium transition-colors relative ${
                 isActive("/blog") 
-                  ? `${dark ? 'text-white' : 'text-black'} font-bold after:absolute after:bottom-[-8px] after:left-0 after:w-full after:h-0.5 after:bg-[#d1fa3c]` 
+                  ? `${dark ? 'text-white' : 'text-black'} font-bold after:absolute after:bottom-[-8px] after:left-0 after:w-full after:h-0.5 after:bg-daily-yellow` 
                   : `${dark ? 'text-gray-300 hover:text-white' : 'text-gray-600 hover:text-black'}`
               }`}
             >
@@ -106,7 +106,7 @@ export default function Navbar({ dark = false }) {
               href="/careers"
               className={`nav-link hidden md:block text-sm font-medium transition-colors relative ${
                 isActive("/careers") 
-                  ? `${dark ? 'text-white' : 'text-black'} font-bold after:absolute after:bottom-[-8px] after:left-0 after:w-full after:h-0.5 after:bg-[#d1fa3c]` 
+                  ? `${dark ? 'text-white' : 'text-black'} font-bold after:absolute after:bottom-[-8px] after:left-0 after:w-full after:h-0.5 after:bg-daily-yellow` 
                   : `${dark ? 'text-gray-300 hover:text-white' : 'text-gray-600 hover:text-black'}`
               }`}
             >
@@ -114,7 +114,7 @@ export default function Navbar({ dark = false }) {
             </a>
             <button
               onClick={toggleContact}
-              className="bg-[#d1fa3c] text-black px-6 py-2 rounded-full text-sm font-semibold hover:bg-black hover:text-[#d1fa3c] transition-all duration-300 border border-transparent hover:border-[#d1fa3c] md:block hidden"
+              className="bg-daily-yellow text-black px-6 py-2 rounded-full text-sm font-semibold hover:bg-black hover:text-daily-yellow transition-all duration-300 border border-transparent hover:border-daily-yellow md:block hidden"
             >
               Contact
             </button>
@@ -210,7 +210,7 @@ export default function Navbar({ dark = false }) {
                 toggleContact();
                 closeMobileMenu();
               }}
-              className="bg-[#d1fa3c] text-black px-6 py-2 rounded-full text-sm font-semibold hover:bg-black hover:text-[#d1fa3c] transition-all duration-300 border border-transparent hover:border-[#d1fa3c] mt-2"
+              className="bg-daily-yellow text-black px-6 py-2 rounded-full text-sm font-semibold hover:bg-black hover:text-daily-yellow transition-all duration-300 border border-transparent hover:border-daily-yellow mt-2"
             >
               Contact
             </button>
