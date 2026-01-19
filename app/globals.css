@@ -51,11 +51,11 @@
   }
 
   body.overlay-open .cursor-dot {
-    background-color: #d1fa3c;
+    background-color: #FFF58A;
   }
 
   body.overlay-open .cursor-outline {
-    border-color: rgba(209, 250, 60, 0.5);
+    border-color: rgba(255, 245, 138, 0.5);
   }
 
   body.project-open .cursor-dot {
@@ -98,7 +98,7 @@
 
   .minimal-input:focus {
     outline: none;
-    border-bottom-color: #d1fa3c;
+    border-bottom-color: #FFF58A;
   }
 
   .minimal-input::placeholder {

@@ -51,7 +51,7 @@ module.exports = {
         sans: ["Inter", "sans-serif"],
       },
       colors: {
-        "daily-yellow": "#d1fa3c",
+        "daily-yellow": "#FFF58A",
       },
       transitionDuration: {
         800: "800ms",
