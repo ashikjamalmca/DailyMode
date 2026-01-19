@@ -1,0 +1,222 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff;
+    color: #1a1a1a;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  @media (min-width: 768px) {
+    body {
+      cursor: none;
+    }
+  }
+}
+
+@layer components {
+  /* Custom Cursor */
+  .cursor-dot,
+  .cursor-outline {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 9999;
+    pointer-events: none;
+    mix-blend-mode: difference;
+  }
+
+  .cursor-dot {
+    width: 8px;
+    height: 8px;
+    background-color: white;
+  }
+
+  .cursor-outline {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    transition: width 0.2s, height 0.2s, background-color 0.2s;
+  }
+
+  body.overlay-open .cursor-dot {
+    background-color: #d1fa3c;
+  }
+
+  body.overlay-open .cursor-outline {
+    border-color: rgba(209, 250, 60, 0.5);
+  }
+
+  body.project-open .cursor-dot {
+    background-color: #000;
+  }
+
+  body.project-open .cursor-outline {
+    border-color: rgba(0, 0, 0, 0.5);
+  }
+
+  /* Marquee Styling */
+  .marquee-section {
+    transform: rotate(-3deg) scale(1.1);
+    background: white;
+    padding: 2rem 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+  }
+
+  /* Image Hover Effects */
+  .work-card img {
+    transition: transform 0.7s ease;
+  }
+
+  .work-card:hover img {
+    transform: scale(1.05);
+  }
+
+  /* Input Styling for Contact Form */
+  .minimal-input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #333;
+    width: 100%;
+    padding: 1rem 0;
+    color: white;
+    font-size: 1.25rem;
+    transition: border-color 0.3s;
+  }
+
+  .minimal-input:focus {
+    outline: none;
+    border-bottom-color: #d1fa3c;
+  }
+
+  .minimal-input::placeholder {
+    color: #555;
+  }
+
+  .hero-title span {
+    display: inline-block;
+  }
+
+  /* Hide hero elements before GSAP animation */
+  .hero-title {
+    opacity: 0;
+  }
+
+  /* Prevent flash of content */
+  .gsap-ready .hero-title {
+    opacity: 1;
+  }
+
+  /* Overlay Transitions */
+  #contact-overlay,
+  #project-overlay {
+    transition: transform 0.7s cubic-bezier(0.77, 0, 0.175, 1), 
+                opacity 0.7s cubic-bezier(0.77, 0, 0.175, 1);
+    will-change: transform, opacity;
+  }
+
+  /* Stroke Text Effect for Marquee */
+  .stroke-text {
+    -webkit-text-stroke: 1px black;
+    color: transparent;
+  }
+
+  /* Contact Form Container Animation */
+  .contact-form-container {
+    transform: translateY(20px);
+    opacity: 0;
+    transition: opacity 0.5s ease 0.2s, transform 0.5s ease 0.2s;
+  }
+
+  .contact-form-container.contact-form-active {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  /* Project Animation Items */
+  .project-anim-item {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+
+  .project-anim-item.project-anim-active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* All Work Page Animations */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .work-item-trigger {
+    animation: fadeInUp 0.6s ease forwards;
+    opacity: 0;
+  }
+}
+
+@layer utilities {
+  @keyframes spin-slow {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .animate-spin-slow {
+    animation: spin-slow 10s linear infinite;
+  }
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  @keyframes float-slow {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+  }
+
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  .animate-float-slow {
+    animation: float-slow 4s ease-in-out infinite;
+  }
+
+  .grid-cell {
+    transition: background-color 0.3s ease, opacity 0.5s ease;
+    opacity: 0;
+  }
+}

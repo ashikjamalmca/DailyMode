@@ -1,0 +1,66 @@
+/** @type {import('tailwindcss').Config} */
+const defaultTheme = require("tailwindcss/defaultTheme");
+module.exports = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: {
+    screens: {
+      xxs: "375px",
+      xx: "425px",
+      ss: "480px",
+      xs: "576px",
+      maxW480H660: { raw: "(max-width: 480px) and (max-height: 660px)" },
+      maxW1440H620: { raw: "(max-width: 1440px) and (max-height: 620px)" },
+      minWH700: { raw: "min-width: 768px) and (min-height: 700px)" },
+      minH700: { raw: "(min-height: 700px)" },
+      minH800: { raw: "(min-height: 800px)" },
+      minH900: { raw: "(min-height: 900px)" },
+      minW1600: { raw: "(min-width: 1600px)" },
+      minW1700: { raw: "(min-width: 1700px)" },
+      minW2000: { raw: "(min-width: 2000px)" },
+      minW2100: { raw: "(min-width: 2100px)" },
+      minW2400: { raw: "(min-width: 2400px)" },
+      maxW1500H900: { raw: "(min-width: 1500px) and (min-height: 900px)" },
+      maxW2500H1400: { raw: "(min-width: 2500px) and (min-height: 1400px)" },
+      maxW1600H1400: { raw: "(min-width: 1600px) and (max-height: 1400px)" },
+      minH800: { raw: "(min-height: 800px)" },
+      maxW576H700: { raw: "(max-width: 576px) and (min-height: 700px)" },
+      maxW576H800: { raw: "(max-width: 576px) and (min-height: 800px)" },
+      maxW576H900: { raw: "(max-width: 576px) and (min-height: 900px)" },
+      maxW576H1000: { raw: "(max-width: 576px) and (min-height: 1000px)" },
+      maxW425H800: { raw: "(max-width: 425px) and (min-height: 800px)" },
+      maxW425H900: { raw: "(max-width: 425px) and (min-height: 900px)" },
+      ...defaultTheme.screens,
+      xl1440: "1440px",
+      xl1600: "1600px",
+      xl1800: "1800px",
+      xl2000: "2000px",
+      xl2100: "2100px",
+      xl2200: "2200px",
+      xl2300: "2300px",
+      xl2400: "2400px",
+      xl2600: "2600px",
+      maxW2600H1400: { raw: "(min-width: 2600px) and (min-height: 1400px)" },
+      maxW1900H1000: { raw: "(min-width: 1900px) and (min-height: 1000px)" },
+    },
+    extend: {
+      fontFamily: {
+        sans: ["Inter", "sans-serif"],
+      },
+      colors: {
+        "daily-yellow": "#d1fa3c",
+      },
+      transitionDuration: {
+        800: "800ms",
+      },
+      zIndex: {
+        60: "60",
+        70: "70",
+      },
+    },
+  },
+  plugins: [require("@tailwindcss/typography")],
+};
